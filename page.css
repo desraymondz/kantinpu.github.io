@@ -1,0 +1,17 @@
+nav {
+    position: fixed;
+    top: 0;
+    font-weight: 520;
+}
+/* to make the navbar stick at the top */
+
+body {
+    font-family: 'Montserrat', sans-serif;  
+
+}
+
+.logopu {
+    width: 40px;
+    margin: 3px;
+    margin-right: 8px;
+}
