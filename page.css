@@ -15,3 +15,8 @@ body {
     margin: 3px;
     margin-right: 8px;
 }
+
+.carousel-item img {
+    max-width: 160vw;
+    max-height: 90vh;
+}
