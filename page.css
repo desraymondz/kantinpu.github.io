@@ -23,7 +23,7 @@ body {
 }
 
 .canteens-headings {
-    margin-top: 8vw;
+    margin-top: 3vw;
     margin-bottom: 1vw;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -34,15 +34,26 @@ body {
 }
 
 .kantin-lama-card {
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     margin-left: 3vw;
     margin-right: 3vw;
+    float:left;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.kantin-lama-card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
 }
 
 .tebal {
     font-weight: bold;
 }
 
-
-
+.cards-container {
+    margin: 10px;
+}
