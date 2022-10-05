@@ -17,6 +17,32 @@ body {
 }
 
 .carousel-item img {
-    max-width: 160vw;
-    max-height: 90vh;
+    max-width: 100vw;
+    max-height: 50vh;
+    object-fit: cover;
 }
+
+.canteens-headings {
+    margin-top: 8vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 5vw;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+}
+
+.kantin-lama-card {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.tebal {
+    font-weight: bold;
+}
+
+
+
