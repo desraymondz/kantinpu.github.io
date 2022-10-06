@@ -72,7 +72,7 @@ body {
 
 /* the css for menu */
 .sidenav {
-    height: 650px;
+    height: 5000px;
     width: 250px;
     position: fixed;
     z-index: 0;
@@ -85,7 +85,7 @@ body {
 
 .sidenav a {
     font-weight: bold;
-    padding: 5px 8px 10px 15px;
+    padding: 5px 10px 10px 30px;
     text-decoration: none;
     font-size: 20px;
     color: #5c5c5c;
@@ -99,7 +99,7 @@ body {
     background-size: 200% 100%;
     background-position: 0%;
     background-clip: text;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .sidenav a:hover {
@@ -125,7 +125,7 @@ body {
 
 
 .food-menu {
-    margin-top: 75px;
+    margin-top: 50px;
     margin-left: 305px;
 }
 
@@ -134,7 +134,34 @@ body {
     width: 287px;
 }
 
-.nasi-ayam-card {
+.food-menu-card {
     margin-top: 25px;
     margin-left: 310px;
+    float:left;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#second{
+    margin-top: 25px;
+    margin-left: 85px;
+}
+
+.food-menu-card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.food-menu {
+    margin-left: 305px;
+}
+
+#bubur {
+    margin-top: 375px;
+}
+
+#nasi-campur {
+    margin-top: 375px;
 }
