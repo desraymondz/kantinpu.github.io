@@ -23,7 +23,7 @@ body {
 }
 
 .canteens-headings {
-    margin-top: 8vw;
+    margin-top: 3vw;
     margin-bottom: 1vw;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -33,14 +33,15 @@ body {
     color: aliceblue;
 }
 
+
 .kantin-lama-card {
     margin-top: 2vw;
     margin-bottom: 2vw;
-    margin-left: 3vw;
+    /* margin-left: 3vw;
     margin-right: 3vw;
-    float:left;
-    justify-content: center;
-    align-items: center;
+    float:left; */
+    /* justify-content: center;
+    align-items: center; */
     transition: transform 0.5s;
 }
 
@@ -58,6 +59,9 @@ body {
     font-weight: bold;
 }
 
+.card .btn {
+    font-weight: 600;
+}
 
 
 
