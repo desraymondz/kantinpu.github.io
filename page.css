@@ -63,7 +63,10 @@ body {
     font-weight: 600;
 }
 
-
+.card {
+    margin: auto;
+    width: 18rem;
+  }
 
 
 
