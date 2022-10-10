@@ -84,8 +84,12 @@ h3{
     font-weight: bold;
 }
 
+.heading-kb {
+    margin-top: 15px;
+}
+
 .sidenav {
-    height: 1000px;
+    max-height: 620px;
     width: 250px;
     position: fixed;
     z-index: 100;
@@ -95,9 +99,15 @@ h3{
     display: block;
     background-color: rgb(240, 243, 255);
     overflow-y: scroll;
-    overflow-x: hidden;
     padding-top: 50px;
+    float: left;
+    border-style: solid;
+    border-color: black;
 }
+
+.sidenav::-webkit-scrollbar {
+    display: none;
+  }
 
 .sidenav a {
     font-weight: bold;
@@ -126,18 +136,6 @@ h3{
 .sidenav a:hover::before {
     width: 100%;
   }
-  
-.sidenav a:before {
-    content: '';
-    background: #54b3d6;
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-}
 
 .food-menu {
     margin-top: 50px;
@@ -151,7 +149,16 @@ h3{
 
 .food-menu-card {
     margin-top: 25px;
-    margin-left: 310px;
+    margin-left: 100px;
+    float:left;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.food-menu-card-x {
+    margin-top: 25px;
+    margin-left: 320px;
     float:left;
     justify-content: center;
     align-items: center;
