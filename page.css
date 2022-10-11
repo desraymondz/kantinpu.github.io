@@ -176,6 +176,12 @@ h3{
     transform: scale(1.1); 
 }
 
+.food-menu-card-x:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1); 
+}
+
 .first-food-menu{
     margin-left: 305px;
     margin-top: 50px;
@@ -192,4 +198,24 @@ h3{
 
 #western-food {
     margin-top: 700px;
+}
+
+#rice-box{
+    margin-top: 700px;
+}
+
+#dapur-moi{
+    margin-top: 660px;
+}
+
+#hatimu{
+    margin-top: 335px;
+}
+
+#rasa-manna{
+    margin-top: 335px;
+}
+
+#ayam-penyet{
+    margin-top: 690px;
 }
