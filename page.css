@@ -102,7 +102,8 @@ h3{
     padding-top: 50px;
     float: left;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(141, 166, 255);
+    border-radius: 15px;
 }
 
 .sidenav::-webkit-scrollbar {
@@ -125,7 +126,7 @@ h3{
     background-size: 200% 100%;
     background-position: 0%;
     background-clip: text;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .sidenav a:hover {
