@@ -68,7 +68,9 @@ body {
     width: 18rem;
   }
 
-
+.shadow {
+    box-shadow: #5c5c5c;
+}
 
 
 
