@@ -10,6 +10,12 @@ body {
     background-color: rgb(240, 243, 255);
 }
 
+.dropdown-item {
+    font-weight: bolder;
+    /* color: rgb(210, 210, 210); */
+    color: #0084ff4d;
+}
+
 .logopu {
     width: 40px;
     margin: 3px;
