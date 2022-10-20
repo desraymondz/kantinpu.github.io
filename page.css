@@ -223,7 +223,8 @@ h3{
 
 .food-card-img{
     height: 200px;
-    width: 287px;
+    width: 286px;
+    border-radius: 15px;
 }
 
 .food-menu-card {
@@ -233,6 +234,7 @@ h3{
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
+    border-radius: 30px;
 }
 
 .food-menu-card-x {
@@ -242,6 +244,7 @@ h3{
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
+    border-radius: 15px;
 }
 
 #second{
@@ -272,11 +275,11 @@ h3{
 }
 
 #nasi-campur-nusantara {
-    margin-top: 725px;
+    margin-top: 390px;
 }
 
 #western-food {
-    margin-top: 700px;
+    margin-top: 370px;
 }
 
 #rice-box{
@@ -284,15 +287,15 @@ h3{
 }
 
 #dapur-moi{
-    margin-top: 660px;
+    margin-top: 375px;
 }
 
 #hatimu{
-    margin-top: 335px;
+    margin-top: 375px;
 }
 
 #rasa-manna{
-    margin-top: 335px;
+    margin-top: 365px;
 }
 
 #ayam-penyet{
