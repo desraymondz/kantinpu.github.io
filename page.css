@@ -167,9 +167,10 @@ h3{
 }
 
 .sidenav {
-    max-height: 620px;
+    max-height: 500px;
     width: 250px;
     position: fixed;
+    margin-top: 100px;
     z-index: 100;
     top: 62px;
     bottom: 0;
