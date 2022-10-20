@@ -150,7 +150,7 @@ footer {
     height: 30vh;
     padding: 5vh 5vw;
     background-color: #7b95f2;
-    border-radius: 20% 20% 0 0;
+    border-radius: 10% 10% 0 0;
     text-align: center;
 }
 
@@ -302,4 +302,98 @@ h3{
 #ayam-penyet{
     margin-top: 690px;
 }
+
+
+
+
+
+
+/* .footer-margin{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+} */
+/* CSS for Home */
+/* 
+.why{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap:wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+}
+
+.why-content{
+    position: relative;
+}
+
+*, :after, :before {
+        box-sizing: border-box;
+        border: 0 solid #e5e7eb;
+}
+
+.why-concent p strong span::before {
+    background-image:url("baru food/miso.PNG");
+    background-position: right center;
+        background-position-x: right;
+        background-position-y: center;
+    right: calc(100% + 10px);
+}
+
+.why-concent p strong span::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+
+
+
+
+
+
+#events{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.picture{
+    max-width: 50%;
+    max-height: 10rem;
+    display: block;
+    flex-basis: 50%;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+
+.events-title{
+    min-width: 4rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.2;
+    text-transform: none;
+    overflow: unset;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: unset;
+    text-overflow: unset;
+} */
 
