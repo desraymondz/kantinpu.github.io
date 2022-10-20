@@ -226,9 +226,11 @@ h3{
 }
 
 .food-card-img{
+    margin-left: -0.5px;
     height: 200px;
-    width: 286px;
-    border-radius: 15px;
+    width: 286.9px;
+    border-radius: 5px;
+    margin-top: -1px;
 }
 
 .food-menu-card {
@@ -238,7 +240,7 @@ h3{
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .food-menu-card-x {
