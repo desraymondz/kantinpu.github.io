@@ -229,8 +229,9 @@ h3{
     margin-left: -0.5px;
     height: 200px;
     width: 286.9px;
+    min-width: 250px;
     border-radius: 5px;
-    margin-top: -1px;
+    margin-top: auto;
 }
 
 .food-menu-card {
@@ -241,6 +242,10 @@ h3{
     align-items: center;
     transition: all 0.3s ease-in-out;
     border-radius: 15px;
+}
+
+#mie-ayam-card{
+    height: 286.9px;
 }
 
 .food-menu-card-x {
@@ -312,7 +317,7 @@ h3{
     height: 200px;
     width: 230px;
     margin-left: 20px;
-    border: 20px;
+    border: 15px;
     border-style: solid;
     border-color: white;
 }
