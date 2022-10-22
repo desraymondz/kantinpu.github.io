@@ -414,6 +414,33 @@ footer ul {
 
 
 
+#why {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom:40px;
+    margin-top:40px;
+    border-radius: 20px;
+}
+
+#why h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.stats {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #666;
+}
+
+.caption {
+    font-size: 18px;
+}
+
 
 
 
@@ -438,8 +465,13 @@ footer ul {
         font-size: 24px;
     }
     #description {
-    background: #00A3FF;
-    font-size: 18px;
+        background: #00A3FF;
+        font-size: 18px;
     }
-
+    #why .stats {
+        font-size: 32px;
+    }
+    #why h2 {
+        font-size: 32px;
+    }
 }
