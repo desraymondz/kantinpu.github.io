@@ -405,11 +405,11 @@ footer ul {
 
 #description {
     /* background-color: #00A3FF; */
-    background-color: white;
+    background-color: #f9f9f9;
     /* background: linear-gradient(to bottom, rgba(0, 163, 255, 1) 0, rgba(0, 163, 255, 1) 70%, rgba(38, 68, 178, 1) 70%, rgba(38, 68, 178, 1)); */
     color:rgb(0, 0, 0);
-    padding: 5vw 10vw calc(5vw + 180px);
-    font-size: 18px;
+    padding: 5vw 7vw calc(5vw + 180px);
+    font-size: 20px;
     font-weight: 500;
     line-height: 2.0;
     color: #666;
@@ -497,9 +497,9 @@ footer ul {
 .photos-headings {
     font-size: 60px;
     font-weight: bold;
-    margin: 30px;
+    margin: 80px;
     text-align: center;
-    margin-top:40px;
+    margin-top:100px;
 }
 
 #past-events-container {
@@ -524,12 +524,24 @@ footer ul {
     font-weight: bold;
 }
 
+#carousel-kantin-baru {
+    width: 80%;
+}
 
 
+
+.round-carousel {
+    border-radius: 30px;
+}
 
 
 
 @media (max-width: 767px) {
+    .promo-code-banner{
+        margin-bottom:30px;
+    }
+
+
     footer {
         
         text-align: center;
@@ -559,7 +571,6 @@ footer ul {
     #why h2 {
         font-size: 32px;
     }
-
 
     .events-photo {
         width: 100%;
