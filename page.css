@@ -231,7 +231,7 @@ h3{
 }
 
 #rice-box{
-    margin-top: 700px;
+    margin-top: 10px;
 }
 
 #dapur-moi{
@@ -250,17 +250,36 @@ h3{
     margin-top: 690px;
 }
 
+.menu-headings {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    
+    margin-right: 3vw;
+    font-size: 5vw;
+    font-weight: bold;
+    background-color:#38B6FF;
+    color: aliceblue;
+}
 
+.im-so-tired{
+    margin-top: 700px;
+    margin-bottom: 1vw;
+    margin-right: 3vw;
+}
 
+.im-too-tired{
+    margin-bottom: 1vw;
+    margin-right: 3vw;
+}
 
+#kl-menu{
+    margin-left: 20vw;
+}
 
+#kb-menu{
+    margin-left: 17.9vw;
+}
 
-
-
-
-
-
-/* footer */
 #png{
     height: 200px;
     width: 230px;
@@ -269,6 +288,9 @@ h3{
     border-style: solid;
     border-color: white;
 }
+
+
+/* footer */
 
 footer {
     text-align: left;
