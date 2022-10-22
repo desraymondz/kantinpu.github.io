@@ -412,11 +412,6 @@ footer ul {
     color: #ffffff;
 }
 
-#empty-box {
-    background-color: #2644b2;
-    min-height: 200px;
-}
-
 
 
 
@@ -442,4 +437,9 @@ footer ul {
     #about-us h2 {
         font-size: 24px;
     }
+    #description {
+    background: #00A3FF;
+    font-size: 18px;
+    }
+
 }
