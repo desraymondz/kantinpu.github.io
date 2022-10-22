@@ -327,21 +327,6 @@ footer p {
     font-size: 15px;
 }
 
-@media (max-width: 767px) {
-    footer {
-        
-        text-align: center;
-        border-radius: 50px 50px 0 0;
-
-    }
-
-    footer .logo {
-        max-width: 200px;
-    }
-    .mascot{
-        display: none;
-    }
-}
 
 footer li a {
     margin-right: 0;
@@ -364,7 +349,7 @@ footer h2 {
 footer ul li {
     list-style: none;
     margin-top: 15px;
-
+    
 }
 
 footer ul {
@@ -393,8 +378,68 @@ footer ul {
 
 
 #about-us {
-    background-color: #38B6FF;
+    background-color: #2644b2;
     min-height: 200px;
+    color:white;
+    font-size: 20px;
     
 }
 
+#about-us h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#swm {
+    width: calc(100% + 24px);
+    /* padding-bottom: 12px;
+    border-radius: 50px; */
+    margin-left: -12px;
+}
+
+#intro {
+    padding: 5vw;
+    
+}
+
+#description {
+    /* background-color: #00A3FF; */
+    background: linear-gradient(to bottom, rgba(0, 163, 255, 1) 0, rgba(0, 163, 255, 1) 70%, rgba(38, 68, 178, 1) 70%, rgba(38, 68, 178, 1));
+    color:rgb(0, 0, 0);
+    padding: 5vw 10vw;
+    font-size: 20px;
+    line-height: 2.0;
+    color: #ffffff;
+}
+
+#empty-box {
+    background-color: #2644b2;
+    min-height: 200px;
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    footer {
+        
+        text-align: center;
+        border-radius: 50px 50px 0 0;
+
+    }
+
+    footer .logo {
+        max-width: 200px;
+    }
+    .mascot {
+        display: none;
+    }
+    #about-us {
+        font-size: 18px;
+    }
+    #about-us h2 {
+        font-size: 24px;
+    }
+}
