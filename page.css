@@ -390,3 +390,11 @@ footer ul {
     rgba(222, 227, 249, 1)), url('Alex\'s\ Family\ \(1\).png');
     background-size: cover;
 }
+
+
+#about-us {
+    background-color: #38B6FF;
+    min-height: 200px;
+    
+}
+
