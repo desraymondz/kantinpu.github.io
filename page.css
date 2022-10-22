@@ -403,13 +403,16 @@ footer ul {
 }
 
 #description {
-    background-color: #00A3FF;
+    /* background-color: #00A3FF; */
+    background-color: white;
     /* background: linear-gradient(to bottom, rgba(0, 163, 255, 1) 0, rgba(0, 163, 255, 1) 70%, rgba(38, 68, 178, 1) 70%, rgba(38, 68, 178, 1)); */
     color:rgb(0, 0, 0);
     padding: 5vw 10vw calc(5vw + 180px);
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     line-height: 2.0;
-    color: #ffffff;
+    color: #666;
+    /* color: #ffffff; */
     position: relative;
 }
 
@@ -466,9 +469,31 @@ footer ul {
     font-size: 60px;
 }
 
-.pukul {
-    max-width: 500px;
+.promotion {
+    max-width: 380px;
+    border-radius: 10px;
+
+    transition: transform 0.5s;
 }
+
+.promotion:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.promo-code-banner {
+    text-align: center;
+}
+
+/* #pukul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+
+
+
+
 
 @media (max-width: 767px) {
     footer {
@@ -500,4 +525,5 @@ footer ul {
     #why h2 {
         font-size: 32px;
     }
+
 }
