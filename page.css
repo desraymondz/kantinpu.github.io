@@ -561,8 +561,8 @@ footer ul {
     text-align: center;
     background-color: white;
     padding: 20px;
-    margin-bottom:40px;
-    margin-top:100px;
+    margin-bottom:150px;
+    margin-top:0px;
     border-radius: 20px;
     box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
     transition: transform 0.5s;
