@@ -383,7 +383,6 @@ footer ul {
     min-height: 200px;
     color:white;
     font-size: 20px;
-    
 }
 
 #about-us h2 {
@@ -558,8 +557,26 @@ footer ul {
     border-radius: 30px;
 }
 
+#denah {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom:150px;
+    margin-top:0px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
 
+#denah-width {
+    width: 100%;
+}
 
+#denah:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
 @media (max-width: 767px) {
     .promo-code-banner{
         margin-bottom:30px;
