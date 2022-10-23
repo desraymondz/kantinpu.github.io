@@ -92,6 +92,11 @@ body {
 
 /* the css for menu */
 
+.menu-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h3{
     padding-left: 20px;
     font-weight: bold;
@@ -121,6 +126,7 @@ h3{
     border-style: solid;
     border-color: rgb(141, 166, 255);
     border-radius: 15px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
 }
 
 .sidenav::-webkit-scrollbar {
@@ -281,24 +287,8 @@ h3{
     margin-top: 375px;
 }
 
-#nasi-campur-nusantara {
-    margin-top: 390px;
-}
-
-#western-food {
-    margin-top: 370px;
-}
-
 #rice-box{
     margin-top: 10px;
-}
-
-#dapur-moi{
-    margin-top: 375px;
-}
-
-#hatimu{
-    margin-top: 375px;
 }
 
 #rasa-manna{
@@ -423,8 +413,18 @@ footer ul {
     width: 300px;
 }
 
+.btn-primary {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .swm-shadow {
     box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
+}
+
+.footer-shadow {
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
+    border-radius: 30px;
 }
 
 
@@ -515,7 +515,7 @@ footer ul {
 }
 
 #contact-us .btn {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
     margin-top: 59px;
     padding: 10px 20px;
