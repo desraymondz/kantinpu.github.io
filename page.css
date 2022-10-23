@@ -87,9 +87,6 @@ body {
 
 
 
-
-
-
 /* the css for menu */
 
 .menu-heading{
@@ -208,10 +205,6 @@ h3{
 .sidenav2 a:hover::before {
     width: 100%;
   }
-
-
-
-
 
 .food-menu {
     margin-top: 50px;
