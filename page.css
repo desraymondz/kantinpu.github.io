@@ -155,6 +155,58 @@ h3{
     width: 100%;
   }
 
+
+/* sidenav2 */
+
+
+.sidenav2 {
+    position: sticky;
+    top: 100px;
+    background-color: rgb(240, 243, 255);
+    overflow-y: scroll;
+    padding-top: 50px;
+    float: left;
+    border-style: solid;
+    border-color: rgb(141, 166, 255);
+    border-radius: 15px;
+}
+
+.sidenav2::-webkit-scrollbar {
+    display: none;
+  }
+
+.sidenav2 a {
+    font-weight: bold;
+    padding: 5px 15px 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5c5c5c;
+    display: block;
+    background-image: linear-gradient(
+        to left,
+        #7473d4,
+        #7473d4 50%,
+        rgb(240, 243, 255) 50%
+    );
+    background-size: 200% 100%;
+    background-position: 0%;
+    background-clip: text;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidenav2 a:hover {
+    background-position: -100%;
+    color: aliceblue;
+}
+
+.sidenav2 a:hover::before {
+    width: 100%;
+  }
+
+
+
+
+
 .food-menu {
     margin-top: 50px;
     margin-left: 305px;
@@ -179,6 +231,15 @@ h3{
     border-radius: 15px;
 }
 
+.food-menu-card-swm {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.food-menu-card-swm .card {
+    margin-left: 0;
+}
+
 #mie-ayam-card{
     height: 286.9px;
 }
@@ -198,7 +259,7 @@ h3{
     margin-left: 85px;
 }
 
-.food-menu-card:hover {
+.food-menu-card:hover, .food-menu-card-swm:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.1); 
@@ -644,5 +705,35 @@ footer ul {
 .navbar {
     font-weight: bold;
 }
+
+/* Menu2 */
+#dishes h1 {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding-left: .5em;
+    color: #FFF;
+    background-color: #38B6FF;
+    font-size: 5vw;
+}
+
+#dishes h1, #dishes h2 {
+    font-weight: bold;
+}
+
+#dishes .card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    #dishes .card {
+        margin-left: auto;
+    }
+
+    #dishes h1, #dishes h2 {
+        text-align: center;
+    }
+}
+
 
 /* Made by SWM Super Website Maker Desmond Alex Popo Viogiska Dila */
