@@ -729,5 +729,13 @@ footer ul {
     }
 }
 
+@media (max-width: 767px) {
+    .kantin-lama-card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
 
 /* Made by SWM Super Website Maker Desmond Alex Popo Viogiska Dila */
