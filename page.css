@@ -502,12 +502,12 @@ footer ul {
     margin-top:100px;
 }
 
-#past-events-container {
+.past-events-container {
     margin-bottom: 40px;
 }
 
 
-#past-events-container p {
+.past-events-container p {
     font-size: 24px;
     line-height: 2;
 }
@@ -518,15 +518,28 @@ footer ul {
     margin-bottom: 200px;
 }
 
+.no-margin-bottom {
+    margin-bottom:0;
+}
+
 .caption-title {
     font-size: 50px;
     margin-top: 100px;
     font-weight: bold;
 }
 
+#carousel-kantin-lama {
+    width: 80%;
+    margin-bottom: 200px;
+
+}
+
 #carousel-kantin-baru {
     width: 80%;
+    margin-bottom: 200px;
+    float: right;
 }
+
 
 
 
@@ -557,6 +570,7 @@ footer ul {
     }
     #about-us {
         font-size: 18px;
+        margin-top: 40px;
     }
     #about-us h2 {
         font-size: 24px;
@@ -583,9 +597,16 @@ footer ul {
         margin-top: 20px;
         font-weight: bold;
     }
-    #past-events-container p {
+    .past-events-container p {
         font-size: 18px;
         line-height: 1.5;
+    }
+    #carousel-kantin-baru {
+        float: none;
+        margin: 20px auto
+    }
+    #carousel-kantin-lama {
+        margin: 20px auto
     }
 }
 
