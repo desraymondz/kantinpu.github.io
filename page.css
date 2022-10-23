@@ -484,7 +484,7 @@ footer ul {
 }
 
 .promotion {
-    max-width: 380px;
+    max-width: 100%;
     border-radius: 10px;
 
     transition: transform 0.5s;
@@ -597,6 +597,9 @@ footer ul {
         font-size: 32px;
     }
 
+    .gallery-headings{
+        font-size: 50px;
+    }
     .events-photo {
         width: 100%;
         border-radius: 30px;
