@@ -160,6 +160,10 @@ h3{
 
 
 .sidenav2 {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     position: sticky;
     top: 100px;
     background-color: rgb(240, 243, 255);
@@ -708,6 +712,10 @@ footer ul {
 
 /* Menu2 */
 #dishes h1 {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
