@@ -631,6 +631,7 @@ footer ul {
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05); 
 }
+
 @media (max-width: 767px) {
     .promo-code-banner{
         margin-bottom:30px;
@@ -701,8 +702,6 @@ footer ul {
 
 /* Menu2 */
 #dishes h1 {
-    position: sticky;
-    top: 0;
     z-index: 10;
     padding-left: .5em;
     color: #FFF;
@@ -727,6 +726,11 @@ footer ul {
     #dishes h1, #dishes h2 {
         text-align: center;
     }
+
+    #dishes h1 {
+        position: sticky;
+        top: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -739,6 +743,7 @@ footer ul {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
 }
 
 /* Made by SWM Super Website Maker Desmond Alex Popo Viogiska Dila */
