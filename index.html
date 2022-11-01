@@ -84,7 +84,7 @@
         <div class="col-md-4 col-6">
           <p class="stats">
             <i class="bi-shop-window"></i>
-            14
+            <span class="animated-stats">14</span>
           </p>
           <p class="caption">
             Stalls
@@ -104,7 +104,7 @@
         <div class="col-md-4 col-6">
           <p class="stats">
             <i class="bi-house-heart-fill"></i>
-            100%
+            <span class="animated-stats">100</span>%
           </p>
           <p class="caption">
             Homemade
@@ -115,7 +115,7 @@
         <div class="col-md-4 col-6 offset-0 offset-md-2">
           <p class="stats">
             <i class="bi-hand-thumbs-up-fill"></i>
-            1000%
+            <span class="animated-stats">1000</span>%
           </p>
           <p class="caption">
             Good For YOU
@@ -124,7 +124,7 @@
         </div>
         <div class="col-md-4 offset-3 offset-md-0 col-6">
           <p class="stats">
-            ±20
+            ±<span class="animated-stats">20</span>
           </p>
           <p class="caption">
             Dishes Available
@@ -366,5 +366,28 @@
 
     
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script>
+		const animationInterval = 1000
+		const updateInterval = 5
+		const observer = new IntersectionObserver(intersections => {
+			intersections.forEach(({target, isIntersecting}) => {
+				if (!isIntersecting) return
+				let currentValue = 0
+				const timer = setInterval(() => {
+					currentValue += updateInterval / animationInterval * target.dataset.value
+					if (currentValue >= target.dataset.value) {
+						currentValue = target.dataset.value
+						clearInterval(timer)
+					}
+					target.innerHTML = Math.floor(currentValue)
+				}, updateInterval)
+			})
+		})
+
+		document.querySelectorAll('.animated-stats').forEach(e => {
+			e.dataset.value = Number(e.innerHTML)
+			observer.observe(e)
+		})
+	</script>
   </body>
 </html>
