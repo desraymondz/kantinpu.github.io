@@ -8,7 +8,9 @@ nav {
 body {
     font-family: 'Montserrat', sans-serif;  
     /* background-color: rgb(222, 227, 249); */
+    
     background-color: rgb(255, 255, 255);
+    /* background-color: rgb(137, 195, 245); */
 }
 
 .dropdown-item {
