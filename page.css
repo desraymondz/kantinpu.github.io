@@ -585,7 +585,42 @@ footer ul {
 .events-photo {
     width: 80%;
     border-radius: 30px;
-    margin-bottom: 200px;
+    margin-right: 10px;
+    margin-left: -50px;
+}
+
+.events-photo-2 {
+    width: 80%;
+    border-radius: 30px;
+}
+
+#testtt{
+    margin-top: 150px;
+    margin-left: -30px;
+}
+
+#testtt2{
+    margin-top: 150px;
+    margin-right: -70px;
+    margin-left: 45px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+#zzz{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+#zzz2{
+    margin-top: 85px;
+    margin-left: 35px;
 }
 
 .no-margin-bottom {
@@ -593,25 +628,21 @@ footer ul {
 }
 
 .caption-title {
-    font-size: 50px;
-    margin-top: 100px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 #carousel-kantin-lama {
     width: 80%;
-    margin-bottom: 200px;
-
+    float: left;
 }
 
 #carousel-kantin-baru {
     width: 80%;
-    margin-bottom: 200px;
-    float: right;
+    float: left;
+    margin-left: 750px;
+    margin-top: -295px;
 }
-
-
-
 
 .round-carousel {
     border-radius: 30px;
@@ -622,7 +653,7 @@ footer ul {
     background-color: white;
     padding: 20px;
     margin-bottom:150px;
-    margin-top:0px;
+    margin-top:125px;
     border-radius: 20px;
     box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
     transition: transform 0.5s;
