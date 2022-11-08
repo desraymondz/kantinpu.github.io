@@ -653,13 +653,13 @@ footer ul {
     float: right;
 }
 
-#carousel-bnb1 {
+#carousel-kantin1 {
     width: 80%;
     margin-bottom: 200px;
 
 }
 
-#carousel-bnb2 {
+#carousel-kantin2 {
     width: 80%;
     margin-bottom: 200px;
     float: right;
@@ -697,7 +697,19 @@ footer ul {
         margin-bottom:30px;
     }
 
+    #our-past-events {
+        text-align: center;
+        margin: 0;
+    }
 
+    #past {
+        padding: 10px;
+    }
+
+    .past-caption {
+        margin-top:0px;
+        margin-bottom: 50px;
+    }
     footer {
         
         text-align: center;
