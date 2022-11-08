@@ -489,6 +489,34 @@ footer ul {
     transition: transform 0.5s;
 }
 
+.our-past-heading {
+    margin-top: 2000px;
+}
+
+#our-past {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom:40px;
+    /* margin-top:0px; */
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+#our-past:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
+#our-past h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
 #why:hover {
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
@@ -569,7 +597,7 @@ footer ul {
     font-weight: bold;
     margin: 80px;
     text-align: center;
-    margin-top:100px;
+    /* margin-top:100px; */
 }
 
 .past-events-container {
