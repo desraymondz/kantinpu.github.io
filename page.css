@@ -489,34 +489,6 @@ footer ul {
     transition: transform 0.5s;
 }
 
-.our-past-heading {
-    margin-top: 2000px;
-}
-
-#our-past {
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    margin-bottom:40px;
-    /* margin-top:0px; */
-    border-radius: 20px;
-    box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
-    transition: transform 0.5s;
-}
-
-#our-past:hover {
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
-}
-
-#our-past h2 {
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 60px;
-}
-
 #why:hover {
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
@@ -528,6 +500,48 @@ footer ul {
     margin-top: 10px;
     margin-bottom: 40px;
     font-size: 60px;
+}
+
+.our-past-events {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 60px;
+}
+
+#past-carou {
+    margin:auto;
+    
+}
+
+#past {
+    text-align: center;
+    background-color: white;
+    padding: 20px 100px 0px 100px;
+    margin-bottom:40px;
+    margin-top:100px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+#past:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
+}
+
+#past h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.past-caption {
+    text-align: center;
+    margin-top: 100px;
+    /* margin-bottom: auto; */
 }
 
 .stats {
@@ -597,11 +611,12 @@ footer ul {
     font-weight: bold;
     margin: 80px;
     text-align: center;
-    /* margin-top:100px; */
+    margin-top:100px;
 }
 
 .past-events-container {
     margin-bottom: 40px;
+    padding:120px;
 }
 
 
@@ -613,42 +628,7 @@ footer ul {
 .events-photo {
     width: 80%;
     border-radius: 30px;
-    margin-right: 10px;
-    margin-left: -50px;
-}
-
-.events-photo-2 {
-    width: 80%;
-    border-radius: 30px;
-}
-
-#testtt{
-    margin-top: 150px;
-    margin-left: -30px;
-}
-
-#testtt2{
-    margin-top: 150px;
-    margin-right: -70px;
-    margin-left: 45px;
-}
-
-.float-left{
-    float: left;
-}
-
-.float-right{
-    float: right;
-}
-
-#zzz{
-    margin-left: 80px;
-    margin-top: 100px;
-}
-
-#zzz2{
-    margin-top: 85px;
-    margin-left: 35px;
+    margin-bottom: 200px;
 }
 
 .no-margin-bottom {
@@ -656,21 +636,36 @@ footer ul {
 }
 
 .caption-title {
-    font-size: 30px;
+    font-size: 50px;
+    margin-top: 100px;
     font-weight: bold;
 }
 
 #carousel-kantin-lama {
     width: 80%;
-    float: left;
+    margin-bottom: 200px;
+
 }
 
 #carousel-kantin-baru {
     width: 80%;
-    float: left;
-    margin-left: 750px;
-    margin-top: -295px;
+    margin-bottom: 200px;
+    float: right;
 }
+
+#carousel-bnb1 {
+    width: 80%;
+    margin-bottom: 200px;
+
+}
+
+#carousel-bnb2 {
+    width: 80%;
+    margin-bottom: 200px;
+    float: right;
+}
+
+
 
 .round-carousel {
     border-radius: 30px;
@@ -680,8 +675,8 @@ footer ul {
     text-align: center;
     background-color: white;
     padding: 20px;
-    margin-bottom:150px;
-    margin-top:125px;
+    margin-bottom:50px;
+    margin-top:50px;
     border-radius: 20px;
     box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
     transition: transform 0.5s;
